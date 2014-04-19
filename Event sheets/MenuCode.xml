@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MenuCode</name>
+    <events>
+        <comment>Quando o layout for iniciado, set size background(WindowWidth, WindowHeight) e inicia a música &quot;MusicaGame&quot;</comment>
+        <event-block sid="4757376088026166">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8757922682620605" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="4389414363059012" type="backgroundmenu">
+                    <param id="0" name="Width">WindowWidth</param>
+                    <param id="1" name="Height">WindowHeight</param>
+                </action>
+                <action id="0" name="Play" sid="2544523919655996" type="Audio">
+                    <param id="0" name="Audio file">SalveChiquinha_country-mix</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;MusicaGame&quot;</param>
+                </action>
+                <action id="1" name="Set looping" sid="14045490331411" type="Audio">
+                    <param id="0" name="Tag">&quot;MusicaGame&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment>Evento click mouse e touch</comment>
+        <event-block sid="7142359772922637">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5737628424401103" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btnJogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="425454143768288" type="System">
+                    <param id="0" name="Layout">Level1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1912707394479733">
+            <conditions>
+                <condition id="3" name="On touched object" sid="494092627814336" type="Touch">
+                    <param id="0" name="Object">btnJogar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2758199992831199" type="System">
+                    <param id="0" name="Layout">Level1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
