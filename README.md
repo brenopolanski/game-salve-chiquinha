@@ -6,7 +6,7 @@ Game development with [Construct 2](https://www.scirra.com).
 
 ![image game-salve-chiquinha](https://raw.github.com/brenopolanski/game-salve-chiquinha/gh-assets/game-salve-chiquinha.jpg)
 
-> [Check it live]().
+> [Check it live](http://brenopolanski.github.io/game-salve-chiquinha/).
 
 ## Usage
 
