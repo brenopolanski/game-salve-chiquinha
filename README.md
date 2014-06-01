@@ -4,7 +4,7 @@ Game development with [Construct 2](https://www.scirra.com).
 
 ## Demo
 
-![image game-salve-chiquinha](https://raw.github.com/brenopolanski/game-salve-chiquinha/gh-assets/game-salve-chiquinha.jpg)
+[![game-salve-chiquinha](https://raw.github.com/brenopolanski/game-salve-chiquinha/gh-assets/game-salve-chiquinha.jpg)](http://brenopolanski.github.io/game-salve-chiquinha/)
 
 > [Check it live](http://brenopolanski.github.io/game-salve-chiquinha/).
 
